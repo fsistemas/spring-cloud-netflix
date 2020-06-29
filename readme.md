@@ -15,3 +15,14 @@
 - Add openfeign client: spring-cloud-starter-openfeign(Before: spring-cloud-starter-feign)
 - Add thymeleaf dependency: spring-boot-starter-thymeleaf
 
+Eureka Server:
+- URL: http://localhost:8761/
+
+Eureka Client:
+- Random port, we call it by service name
+
+Eureka Feign Client:
+- URL: http://localhost:8080/get-greeting
+
+Call Eureka Client using Feign Client
+
